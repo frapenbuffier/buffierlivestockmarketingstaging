@@ -1,0 +1,159 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  color: #333333; }
+
+a:hover {
+  color: #999966;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.005em; }
+
+@media (min-width: 768px) {
+  .contact-section {
+    width: 75%; } }
+@media (min-width: 768px) {
+  .card h5 {
+    font-size: 1rem; } }
+@media (min-width: 992px) {
+  .card h5 {
+    font-size: 1.25rem; } }
+
+.contact-form-wrapper {
+  width: 100%; }
+  @media (min-width: 992px) {
+    .contact-form-wrapper {
+      width: 75%; } }
+  @media (min-width: 1200px) {
+    .contact-form-wrapper {
+      width: 60%; } }
+
+.contact {
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/hero.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-position: top center; }
+
+@media (min-width: 768px) {
+  .jumbo-text {
+    width: 50%; } }
+
+#elementV {
+  left: 0;
+  z-index: 5; }
+
+#elementSquares {
+  width: 2.8em;
+  right: 20%;
+  bottom: -40%;
+  z-index: 5; }
+
+#elementV2 {
+  width: 100%;
+  left: 0;
+  z-index: 5; }
+
+#elementSquares2 {
+  width: 50px;
+  right: 0;
+  bottom: -50%; }
+  @media (min-width: 768px) {
+    #elementSquares2 {
+      width: 50px;
+      right: 15%;
+      bottom: -50%; } }
+
+#elementV3 {
+  width: 100%;
+  right: 0;
+  bottom: -18%; }
+  @media (min-width: 576px) {
+    #elementV3 {
+      left: 0;
+      bottom: -18%; } }
+  @media (min-width: 768px) {
+    #elementV3 {
+      width: 41%;
+      left: -55%;
+      bottom: -1%; } }
+  @media (min-width: 992px) {
+    #elementV3 {
+      bottom: -40%; } }
+
+.jumbotron {
+  background: url(../img/hero.jpg) no-repeat top 100px center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 0;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .jumbotron {
+      background-position: top 80px center; } }
+
+footer p,
+footer h6 {
+  font-size: .85em; }
+
+@media (min-width: 1200px) {
+  footer p,
+  footer h6 {
+    font-size: 1em; } }
+footer a {
+  color: white; }
+
+footer a:hover {
+  color: #999966;
+  text-decoration: none; }
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
+
+.email {
+  width: auto; }
+
+#services1 {
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/cattle-strategy-jumbo.jpg");
+  background-position: right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-position: top center; }
+
+.pdf-download {
+  width: 30px; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.text-dark:hover {
+  color: #999966; }
+
+.landing-img-sales {
+  filter: grayscale(100%); }
+
+/*# sourceMappingURL=style.css.map */

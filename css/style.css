@@ -88,17 +88,16 @@ h1, h2, h3, h4, h5, h6 {
       bottom: -40%; } }
 
 .jumbotron {
-  background: url(../img/hero.jpg) no-repeat top 100px center;
+  background: url(../img/hero.jpg) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   border-radius: 0;
-  margin-bottom: 0;
-  height: 100%; }
+  margin-bottom: 0; }
   @media (min-width: 768px) {
     .jumbotron {
-      background-position: top 80px center; } }
+      background-position: top center; } }
 
 footer p,
 footer h6 {

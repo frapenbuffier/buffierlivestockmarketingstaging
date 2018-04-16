@@ -8,38 +8,19 @@ a:hover {
   color: #999966;
   text-decoration: none; }
 
+.text-dark:hover {
+  color: #999966; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Narrow', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.005em; }
 
-@media (min-width: 768px) {
-  .contact-section {
-    width: 75%; } }
-@media (min-width: 768px) {
-  .card h5 {
-    font-size: 1rem; } }
-@media (min-width: 992px) {
-  .card h5 {
-    font-size: 1.25rem; } }
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
 
-.contact-form-wrapper {
-  width: 100%; }
-  @media (min-width: 992px) {
-    .contact-form-wrapper {
-      width: 75%; } }
-  @media (min-width: 1200px) {
-    .contact-form-wrapper {
-      width: 60%; } }
-
-.contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/hero.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  border-radius: 0;
-  margin-bottom: 0;
-  background-position: top center; }
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
 
 @media (min-width: 768px) {
   .jumbo-text {
@@ -48,44 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 #elementV {
   left: 0;
   z-index: 5; }
-
-#elementSquares {
-  width: 2.8em;
-  right: 20%;
-  bottom: -40%;
-  z-index: 5; }
-
-#elementV2 {
-  width: 100%;
-  left: 0;
-  z-index: 5; }
-
-#elementSquares2 {
-  width: 50px;
-  right: 0;
-  bottom: -50%; }
-  @media (min-width: 768px) {
-    #elementSquares2 {
-      width: 50px;
-      right: 15%;
-      bottom: -50%; } }
-
-#elementV3 {
-  width: 100%;
-  right: 0;
-  bottom: -18%; }
-  @media (min-width: 576px) {
-    #elementV3 {
-      left: 0;
-      bottom: -18%; } }
-  @media (min-width: 768px) {
-    #elementV3 {
-      width: 41%;
-      left: -55%;
-      bottom: -1%; } }
-  @media (min-width: 992px) {
-    #elementV3 {
-      bottom: -40%; } }
 
 .jumbotron {
   background: url(../img/hero.jpg) no-repeat top center;
@@ -99,29 +42,8 @@ h1, h2, h3, h4, h5, h6 {
     .jumbotron {
       background-position: top center; } }
 
-footer p,
-footer h6 {
-  font-size: .85em; }
-
-@media (min-width: 1200px) {
-  footer p,
-  footer h6 {
-    font-size: 1em; } }
-footer a {
-  color: white; }
-
-footer a:hover {
-  color: #999966;
-  text-decoration: none; }
-
-.btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
-
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(153, 153, 102, 0.5); }
-
-.email {
-  width: auto; }
+.landing-img-sales {
+  filter: grayscale(100%); }
 
 #services1 {
   background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/cattle-strategy-jumbo.jpg");
@@ -132,6 +54,13 @@ footer a:hover {
   border-radius: 0;
   margin-bottom: 0;
   background-position: top center; }
+
+@media (min-width: 768px) {
+  .card h5 {
+    font-size: 1rem; } }
+@media (min-width: 992px) {
+  .card h5 {
+    font-size: 1.25rem; } }
 
 .pdf-download {
   width: 30px; }
@@ -150,10 +79,43 @@ footer a:hover {
   width: 100%;
   height: 100%; }
 
-.text-dark:hover {
-  color: #999966; }
+@media (min-width: 768px) {
+  .contact-section {
+    width: 75%; } }
+.contact-form-wrapper {
+  width: 100%; }
+  @media (min-width: 992px) {
+    .contact-form-wrapper {
+      width: 75%; } }
+  @media (min-width: 1200px) {
+    .contact-form-wrapper {
+      width: 60%; } }
 
-.landing-img-sales {
-  filter: grayscale(100%); }
+.contact {
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/hero.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-position: top center; }
+
+.email {
+  width: auto; }
+
+footer p,
+footer h6 {
+  font-size: .85em; }
+
+@media (min-width: 1200px) {
+  footer p,
+  footer h6 {
+    font-size: 1em; } }
+footer a {
+  color: white; }
+
+footer a:hover {
+  color: #999966;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

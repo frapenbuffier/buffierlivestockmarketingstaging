@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-    background: url(../img/hero.jpg) no-repeat top center;
+    background: url(../img/hero/morning4.jpg) no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,9 +53,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;   
     margin-bottom: 0;
     @media (min-width: 768px) {
-        background-position: top center;
+        background-position: bottom right;
     }
 }
+
 
 // Index Page
 .landing-img-sales  {
@@ -79,6 +80,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;   
     margin-bottom: 0;
     background-position: top center;
+}
+
+.fa-check-circle {
+    color: green;
 }
 
 // Sales
@@ -131,17 +136,17 @@ h1, h2, h3, h4, h5, h6 {
     background: 
       /* top, transparent white, faked with gradient */ 
       linear-gradient(
-        rgba(255, 255, 255, 0.65), 
-        rgba(255, 255, 255, 0.65)
+        rgba(255, 255, 255, 0.60), 
+        rgba(255, 255, 255, 0.60)
       ),
       /* bottom, image */
-      url('../img/hero.jpg');
+      url('../img/hero/morning4.jpg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       border-radius: 0;   
       margin-bottom: 0;
-      background-position: top center;
+      background-position: center center;
   }
 
 // Footer
@@ -162,9 +167,9 @@ footer h6 {
     }  
 }
 
-footer a {
-    color: white;
-}
+// footer a {
+//     color: white;
+// }
 
 footer a:hover {
     color: #999966;

@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 5; }
 
 .jumbotron {
-  background: url(../img/hero.jpg) no-repeat top center;
+  background: url(../img/hero/morning4.jpg) no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0; }
   @media (min-width: 768px) {
     .jumbotron {
-      background-position: top center; } }
+      background-position: bottom right; } }
 
 .landing-img-sales {
   filter: grayscale(100%); }
@@ -54,6 +54,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   margin-bottom: 0;
   background-position: top center; }
+
+.fa-check-circle {
+  color: green; }
 
 @media (min-width: 768px) {
   .card h5 {
@@ -92,13 +95,13 @@ h1, h2, h3, h4, h5, h6 {
       width: 60%; } }
 
 .contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/hero.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/hero/morning4.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   border-radius: 0;
   margin-bottom: 0;
-  background-position: top center; }
+  background-position: center center; }
 
 .email {
   width: auto; }
@@ -111,9 +114,6 @@ footer h6 {
   footer p,
   footer h6 {
     font-size: 1em; } }
-footer a {
-  color: white; }
-
 footer a:hover {
   color: #999966;
   text-decoration: none; }

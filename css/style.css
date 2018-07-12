@@ -11,6 +11,13 @@ a:hover {
 .text-dark:hover {
   color: #999966; }
 
+.nav-link {
+  font-size: .875rem; }
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo Narrow', sans-serif;
   text-transform: uppercase;
@@ -94,14 +101,8 @@ h1, h2, h3, h4, h5, h6 {
     .contact-form-wrapper {
       width: 60%; } }
 
-.contact {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/hero/morning4.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  border-radius: 0;
-  margin-bottom: 0;
-  background-position: center center; }
+.primary-textarea.md-form label.active {
+  color: #4285F4; }
 
 .email {
   width: auto; }
@@ -111,9 +112,10 @@ footer h6 {
   font-size: .85em; }
 
 @media (min-width: 1200px) {
+  .footer-copyright,
   footer p,
   footer h6 {
-    font-size: 1em; } }
+    font-size: .90em; } }
 footer a:hover {
   color: #999966;
   text-decoration: none; }

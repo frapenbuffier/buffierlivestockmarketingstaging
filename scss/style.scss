@@ -164,6 +164,10 @@ h1, h2, h3, h4, h5, h6 {
 
 // Footer
 
+.page-footer {
+    background-color: #1f2226;
+}
+
 .email {
     width: auto;
 }  
@@ -171,6 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 footer p,
 footer h6 {
     font-size: .85em;
+    font-weight: 300;
 }
 
 @media (min-width: 1200px) {
@@ -179,6 +184,15 @@ footer h6 {
     footer h6 {
         font-size: .90em;
     }  
+}
+
+hr {
+    border-top: 1px solid #999966;
+}
+
+footer a {
+    color: #ffffff;
+    font-weight: 300;
 }
 
 footer a:hover {
